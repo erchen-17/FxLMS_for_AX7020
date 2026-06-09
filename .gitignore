@@ -1,0 +1,76 @@
+# ===========================
+# Vivado Project Ignore Rules
+# ===========================
+
+# Vivado auto-generated project directories
+*.runs/
+*.cache/
+*.gen/
+*.Xil/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.jou
+*.log
+*.str
+plot/
+compare/
+
+# IP build outputs
+*.srcs/sources_1/ip/*
+*.srcs/sources_1/bd/
+
+# Simulation outputs
+*.wdb
+*.vcd
+*.ila
+iladata*.csv
+
+# Project and transient files
+*.xise
+*.xml
+*.backup.jou
+*.backup.log
+
+# Build results
+*.bit
+*.bin
+*.mmi
+*.prm
+*.rpt
+*.dcp
+*.xsa
+
+# Checkpoint and temporary files
+*.cache/
+*.tmp
+*.temp
+*.ncd
+*.ngc
+*.pcf
+
+# Ignore common OS files
+.DS_Store
+Thumbs.db
+
+# VSCode workspace settings (optional)
+.vscode/
+
+# If you generate project by tcl, ignore project folder
+project_1/
+
+*.pdf
+
+nul
+
+docs/
+
+*.zip
+
+presentation/
+
+*.png
+
+CLAUDE.md
+
+AGENTS.md
